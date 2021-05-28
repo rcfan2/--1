@@ -137,7 +137,7 @@ function hudong(timeout = 0) {
 let url = {
         url : 'http://wishtree.enjoyha.com/api/wishtree/play/start',
         headers : JSON.parse($.getdata('xbzshd')),
-        body : `{"homeUserId":${id},"gemNum":"10"}`,}//默认使用10宝石互动，可自行更改
+        body : `{"homeUserId":${id},"gemNum":"100"}`,}//默认使用10宝石互动，可自行更改
       $.post(url, async (err, resp, data) => {
         try {
            
